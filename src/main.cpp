@@ -4,7 +4,7 @@
 // moves it 228 pixels to the left. The preview widget (EDI) is hooked where its constructor stores -1 at +0x168
 // (0x4D4FA7); the four star nodes are found by name and their first translation keyframe is shifted.
 // The original used a naked stub and replayed the instruction; here it is a mid-function hook.
-#include "../../common.hpp"
+#include "../common.hpp"
 
 #include <cmath>
 
