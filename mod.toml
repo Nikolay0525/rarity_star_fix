@@ -1,0 +1,10 @@
+id = "rarity_star_fix"
+name = "Rarity Star Fix"
+version = "1.0.0"
+kyubu = "^1.1"
+sides = ["client"]
+authors = ["SirLefti (original), ported"]
+description = "Moves the rarity star of the item preview so it no longer covers the price."
+
+[native]
+client = "bin/rarity_star_fix.dll"
